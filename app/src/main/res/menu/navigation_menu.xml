@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    tools:ignore="HardcodedText">
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_paises"
+            android:title="Paises"
+            android:icon="@drawable/outlined_flag"
+
+            />
+        <item
+            android:id="@+id/nav_calc"
+            android:title="Calculadora"
+            android:icon="@drawable/calculator"
+            />
+        <item
+            android:id="@+id/nav_quiz"
+            android:title="Quiz"
+            android:icon="@drawable/quiz" />
+
+    </group>
+
+    <item
+        android:title="Opciones">
+        <menu>
+            <item
+                android:id="@+id/nav_acerca"
+                android:title="Acerca de"
+                />
+        </menu>
+    </item>
+
+    <!-- Separador visual antes del botón de cerrar sesión -->
+    <group android:id="@+id/logout_group">
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Cerrar sesión"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:orderInCategory="100"
+            />
+    </group>
+</menu>

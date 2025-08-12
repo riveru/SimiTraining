@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_acerca_de"
+        android:icon="@drawable/outline_account_circle_24"
+        android:title="Acerca de" />
+
+    <item
+        android:id="@+id/nav_nosotros"
+        android:icon="@drawable/outline_account_tree_24"
+        android:title="Nosotros" />
+
+    <item
+        android:id="@+id/nav_tienda"
+        android:icon="@drawable/outline_apparel_24"
+        android:title="Tienda" />
+
+</menu>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "191719840564",
+    "project_id": "mytoolboxapp-d1922",
+    "storage_bucket": "mytoolboxapp-d1922.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191719840564:android:b95e0b84efb96e732ea361",
+        "android_client_info": {
+          "package_name": "com.example.mytoolboxapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkGoMFPj7cI80ZcJoeOKdyzCHU_OU9ycc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
